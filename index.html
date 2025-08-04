@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8d7c8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            color: #333;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .nav button {
+            background: none;
+            border: none;
+            color: #333;
+            cursor: pointer;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .menu-item {
+            background-color: #1a1a1a;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+        .menu-item img {
+           width: 100px;
+           height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .menu-item h3 {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        .menu-item p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .menu-item .price {
+            font-size: 18px;
+            color: #f5a623;
+            margin: 5px 0;
+        }
+        .menu-item .rating {
+            color: #f5a623;
+        }
+        .img1{
+            background: white;
+        }
+        .img2{
+            background: white;
+        }
+        .img3{
+            background: white;
+        }
+        .img4{
+            background: white;
+        }
+        .img5{
+            background: white;
+        }
+        .img6{
+            background: white;
+        }
+        .img7{
+            background: white;
+        }
+        .img8{
+            background: white;
+        }
+        .img9{
+            background: white;
+        }
+        .hh{
+            font-family: cursive;
+        }
+        #all{
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- div for navs -->
+    <div class="header">
+        <h1 class="hh">Our Menu</h1>
+        <div class="nav">
+            <button id="all" style="color: white;">All</button>
+            <button>Egusi Soup</button>
+            <button>Okro Soup</button>
+            <button>Amala & Ewedu Meal</button>
+            <button>Pounded</button>
+            <button>Fried Rice</button>
+            <button>Egg Sauce</button>
+        </div>
+    </div>
+    <!-- div for menu -->
+    <div class="menu-grid">
+        <div class="menu-item">
+            <div class="img2"><img src="/week2/images/fried rice.jpeg" alt="Fried Rice"></div>
+            <h3>Delicious Fried Rice</h3>
+            <p>Dont miss the blessed taste of our Fried Rice</p>
+            <p>A food you are not going to compare with another</p>
+            <p class="price">₦2,500</p>
+            <span class="rating">⭐</span>
+        </div>
+        <div class="menu-item">
+            <div class="img3"><img src="/week2/images/okro soup.jpeg" alt="Okro Soup"></div>
+            <h3>Delicious Okro Soup</h3>
+            <p>Dont miss the blessed taste of our Okro</p>
+            <p>A food you are not going to compare with another</p>
+            <p class="price">₦700</p>
+            <span class="rating">⭐</span>
+        </div>
+        <div class="menu-item">
+            <div class="img4"><img src="/week2/images/eguisi soup.jpeg" alt="Egusi Soup"></div>
+            <h3>Delicious Egusi Soup</h3>
+            <p>Dont miss the blessed taste of our Egusi Soup</p>
+            <p>A food you are not going to compare with another</p>
+            <p class="price">₦300</p>
+            <span class="rating">⭐</span>
+        </div>
+        <div class="menu-item">
+            <div class="img5"><img src="/week2/images/eguisi soup.jpeg" alt="Egusi Soup"></div>
+            <h3>Delicious Egusi Soup</h3>
+            <p>Dont miss the blessed taste of our Egusi Soup</p>
+            <p>A food you are not going to compare with another</p>
+            <p class="price">₦3,500</p>
+            <span class="rating">⭐</span>
+        </div>
+        <div class="menu-item">
+            <div class="img1"><img src="/week2/images/egg sauce.jpeg" alt="Egg Sauce"></div>
+            <h3>Delicious Egg Sauce</h3>
+            <p>Dont miss the blessed taste of our Egg Sauce</p>
+            <p>A food you are not going to compare with another</p>
+            <p class="price">₦5,000</p>
+            <span class="rating">⭐</span>
+        </div>
+        <div class="menu-item">
+            <div class="img6"><img src="/week2/images/egg sauce.jpeg" alt="Egg Sauce"></div>
+            <h3>Delicious Egg Sauce</h3>
+            <p>Dont miss the blessed taste of our Egg Sauce</p>
+            <p>A food you are not going to compare with another</p>
+            <p class="price">₦5,000</p>
+            <span class="rating">⭐</span>
+        </div>
+        <div class="menu-item">
+            <div class="img7"><img src="/week2/images/meat pie.jpeg" alt="Meat Pie"></div>
+            <h3>Delicious Meat Pie</h3>
+            <p>Dont miss the blessed taste of our Meat Pie</p>
+            <p>A food you are not going to compare with another</p>
+            <p class="price">₦1,950</p>
+            <span class="rating">⭐</span>
+        </div>
+        <div class="menu-item">
+            <div class="img8"><img src="/week2/images/dry meat.jpeg" alt="Dry Meat"></div>
+            <h3>Delicious Dry Meat</h3>
+            <p>Dont miss the blessed taste of our Dry Meat</p>
+            <p>A food you are not going to compare with another</p>
+            <p class="price">₦2,400</p>
+            <span class="rating">⭐</span>
+        </div>
+        <div class="menu-item">
+            <div class="img9"><img src="/week2/images/jollof rice.jpeg" alt="Chicken Jollof Rice"></div>
+            <h3>Delicious Chicken Jollof Rice</h3>
+            <p>Dont miss the blessed taste of our Chicken Jollof Rice</p>
+            <p>A food you are not going to compare with another</p>
+            <p class="price">₦7,000</p>
+            <span class="rating">⭐</span>
+        </div>
+    </div>
+</body>
+</html>
